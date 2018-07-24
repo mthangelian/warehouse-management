@@ -1896,7 +1896,7 @@ namespace CIS375_Warehouse_Management
                                                 {
                                                     warehouseCRequest = true;
                                                     WriteCustomerInfoToPackingFile(customerInfo, idInfo, fileName, warehouse);
-                                                }
+                                                } 
 
                                         takeItemsFromWarehouseTable(values[0], Convert.ToChar(values[1]), Convert.ToInt32(values[2]), customerInfo, idInfo, fileName);
                                     }
